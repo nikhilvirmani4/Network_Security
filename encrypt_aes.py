@@ -10,3 +10,4 @@ def encrypt(plaintext, key, hashed_data):
     ciphertext, tag = cipher.encrypt_and_digest(B)
     return ciphertext, nonce, tag
 
+##aes
